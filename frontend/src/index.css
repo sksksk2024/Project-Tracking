@@ -59,7 +59,7 @@ body {
 
 /* Loader */
 .container {
-  height: 100vh;
+  height: 5vh;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -67,8 +67,8 @@ body {
 }
 
 .loader {
-  width: 80px;
-  height: 80px;
+  width: 20px;
+  height: 20px;
   position: relative;
   animation: spin 2s linear infinite;
 }
@@ -78,16 +78,16 @@ body {
   content: '';
   position: absolute;
   top: 0;
-  left: 35px;
-  width: 30px;
-  height: 30px;
+  left: 10px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background: #3498db;
   animation: bounce 2s infinite ease-in-out;
 }
 
 .loader::after {
-  left: -35px;
+  left: -10px;
   background: #e74c3c;
 }
 
@@ -104,6 +104,6 @@ body {
   }
 
   50% {
-    transform: translateY(-30px);
+    transform: translateY(-20px);
   }
 }

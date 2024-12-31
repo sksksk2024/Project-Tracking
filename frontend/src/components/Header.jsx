@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useMutation } from '@tanstack/react-query';
+import Loader from './Loader';
 import logo from '../images/logo.svg';
 import hamburger from '../images/icon-hamburger.svg';
 import close from '../images/icon-close.svg';
@@ -111,7 +112,7 @@ function Header() {
           <hr className=" border-light-grayish-blue border-solid border w-full" />
           <li className="relative cursor-pointer group">
             <button className="text-grayish-blue" onClick={() => mutate()}>
-              {isLoading ? 'Logging in...' : 'Login'}
+              {isLoading ? <Loader /> : 'Login'}
             </button>
             <span className="absolute left-0 bottom-0 w-0 h-2H bg-grayish-blue group-hover:w-full transition-all duration-300"></span>
           </li>
@@ -139,13 +140,16 @@ function Header() {
             </button>
             <span className="absolute left-0 bottom-0 w-0 h-2H bg-black group-hover:w-full transition-all duration-300"></span>
           </li>
+          <li className="relative">
+            <div className="absolute top-12.8I translate-x-[200%] w-2 h-2 rounded-50BR bg-grayish-blue border-grayish-blue"></div>
+          </li>
+          <li className="relative cursor-pointer group">
+            <button className="text-grayish-blue ml-8" onClick={() => mutate()}>
+              {isLoading ? <Loader /> : 'Login'}
+            </button>
+            <span className="absolute left-8 bottom-0 w-0 h-2H bg-grayish-blue group-hover:w-3/5 transition-all duration-300"></span>
+          </li>
         </ul>
-        <li className="relative cursor-pointer group">
-          <button className="text-grayish-blue ml-8" onClick={() => mutate()}>
-            {isLoading ? 'Logging in...' : 'Login'}
-          </button>
-          <span className="absolute left-8 bottom-0 w-0 h-2H bg-grayish-blue group-hover:w-3/5 transition-all duration-300"></span>
-        </li>
       </div>
 
       {/* Modal */}
