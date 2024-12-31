@@ -1,3 +1,6 @@
+*Hello, fellow friend!! *![Image](https://upload.wikimedia.org/wikipedia/commons/4/41/Fire.JPG)
+  This is a retrospection of my journey compliting this frontend mentor project, equiped it with some Backend(for the login button I added a simple POST request, for when it's clicked, it appears a model with a message that comes from backend)
+  
 __What are you most proud of, and what would you do differently next time?__
 
 **Deploying this website** was my best accomplishment of all, it took me a whole day to understand and make this work; i will enter in more detailed in the next section! I also learned:
