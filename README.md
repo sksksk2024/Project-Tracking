@@ -26,4 +26,4 @@ Testing on **two different computers** made me realize that the **website doesn�
 **If you have any advice on how to handle this and create more consistent, accessible websites, I’d be so grateful! 😊**
 
 sksksk rezolved this:
-![Image](https://project-tracking-frontend.onrender.com/)
+![Design preview for the Project tracking intro component coding challenge](./design/desktop-preview.jpg)
