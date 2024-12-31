@@ -1,4 +1,4 @@
-*Hello, fellow friend!! *![Image](https://unsplash.com/photos/burning-firelog-LXFVPMrTINE)
+*Hello, fellow friend!! *🔥🔥🔥
   This is a retrospection of my journey compliting this frontend mentor project, equiped it with some Backend(for the login button I added a simple POST request, for when it's clicked, it appears a model with a message that comes from backend)
   
 __What are you most proud of, and what would you do differently next time?__
